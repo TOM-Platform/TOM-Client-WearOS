@@ -18,8 +18,7 @@ An Android smartwatch application to read and send sensor data to the server.
 ### Search Location
 - In order to get search location suggestions, we use either [Google Maps Places API](https://developers.google.com/maps/documentation/places/web-service/overview)
   [Nominatim OSM API](https://nominatim.org/release-docs/develop/api/Overview/).
-    - To use Google Maps Places API, you need to have a [Google Cloud Platform (GCP)](https://console.cloud.google.com/) account and
-      enable the Places API.
+    - To use Google Maps Places API, you need to have a [Google Cloud Platform (GCP)](https://console.cloud.google.com/) account and enable the Places API.
     - To use Nominatim OSM API, you do not need an API key.
 
 ### Choosing which API to use
@@ -63,7 +62,7 @@ You can refer to https://developer.android.com/studio/run/emulator-networking fo
 
 ##  ADB debug from computer
 - [Debugging](https://developer.android.com/training/wearables/get-started/debugging)
-- Go to platform-tools `cd <USER_FOLDER>\Android\Sdk\platform-tools`
+- Go to platform-tools `cd <USER_FOLDER>\Android\Sdk\platform-tools` (`<USER_FOLDER>` is the folder where Android SDK is installed, e.e., `C:\Users\<NAME>\AppData\Local\`)
 - Connect adb, `adb connect <WATCH_IP>`
 - To disconnect, `adb disconnect`
 
@@ -111,6 +110,10 @@ Make sure to enable this option in extended controls as well, you have to enable
 
 
 ## Development
+
+### Guides
+- [Basic guide, 7 min](https://drive.google.com/file/d/1QhBVzDGhJ_ONVjSbuQv7CivHg0anIEEp/view?usp=drive_link)  
+
 ### Linting
 **Intellij IDEA**
 1. Install the ktlint plugin in the Marketplace [here](https://github.com/nbadal/ktlint-intellij-plugin)
